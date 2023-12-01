@@ -1,7 +1,7 @@
 package AntiSandBox
 
 import (
-	"GoShellCodeLoader/API"
+	"GoAnti-VirusX/API"
 	"time"
 )
 

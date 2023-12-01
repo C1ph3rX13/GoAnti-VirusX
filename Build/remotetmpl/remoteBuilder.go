@@ -1,8 +1,8 @@
 package main
 
 import (
-	"GoShellCodeLoader/Build/compileutils"
-	"GoShellCodeLoader/Utils"
+	"GoAnti-VirusX/Build/compileutils"
+	"GoAnti-VirusX/log"
 )
 
 const (
@@ -13,6 +13,7 @@ const (
 func main() {
 	err := compileutils.TmplBuilder(TmplDir, CompilationDir)
 	if err != nil {
-		Utils.GetLogger().Fatalf("编译错误: %s", err)
+		log.Fatalf("编译错误: %s", err)
 	}
+	log.Info("Compile Susses")
 }

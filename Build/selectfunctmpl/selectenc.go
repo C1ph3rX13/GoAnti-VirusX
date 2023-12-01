@@ -1,7 +1,7 @@
 package selectfunctmpl
 
 import (
-	"GoShellCodeLoader/Utils"
+	"GoAnti-VirusX/Utils"
 	"fmt"
 	"os"
 	"path/filepath"

@@ -1,8 +1,8 @@
 package main
 
 import (
-	"GoShellCodeLoader/Build/compileutils"
-	"GoShellCodeLoader/Utils"
+	"GoAnti-VirusX/Build/compileutils"
+	"GoAnti-VirusX/Utils"
 )
 
 const (

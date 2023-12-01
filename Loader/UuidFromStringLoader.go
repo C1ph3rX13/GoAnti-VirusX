@@ -1,7 +1,7 @@
 package Loader
 
 import (
-	"GoShellCodeLoader/API"
+	"GoAnti-VirusX/API"
 	"bytes"
 	"encoding/binary"
 	"fmt"

@@ -1,7 +1,7 @@
 package Loader
 
 import (
-	"GoShellCodeLoader/API"
+	"GoAnti-VirusX/API"
 	"golang.org/x/sys/windows"
 	"unsafe"
 )

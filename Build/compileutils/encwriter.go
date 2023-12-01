@@ -1,7 +1,7 @@
 package compileutils
 
 import (
-	"GoShellCodeLoader/Crypto"
+	"GoAnti-VirusX/Crypto"
 	"fmt"
 	"path/filepath"
 )

@@ -1,7 +1,7 @@
 package compileutils
 
 import (
-	"GoShellCodeLoader/Utils"
+	"GoAnti-VirusX/Utils"
 	"bytes"
 	"fmt"
 	"math/rand"
